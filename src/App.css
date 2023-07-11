@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mali', cursive;
+}
+
+
+
+.title
+{
+  display: block;
+  color: #ef6b74;
+  padding:10px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.form{
+  text-align: center;
+}
+p{
+  font-size:45px;
+  color: #e7627a;
+  margin-left: 2rem;
+}
+/*flexแนวนอน
+blockแนวตั้ง*/
+
+
+
+button {
+  display: inline-block;
+  padding: 7px 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e7627a;
+  border: none;
+  border-radius: 15px;
+}
+
+input {
+  padding: 12px 20px;
+  margin:5px;
+  box-sizing: border-box;
+  border: 2px solid salmon;
+  border-radius: 4px;
+  background-color: white;
+  resize: none;
+}
+
+.dataform{
+  color:#ef6b74;
+}
